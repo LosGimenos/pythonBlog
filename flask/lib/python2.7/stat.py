@@ -1,1 +1,1 @@
-/Users/retraido/miniconda2/lib/python2.7/stat.py
+/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/stat.py
