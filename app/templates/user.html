@@ -10,10 +10,6 @@
   </table>
   <hr>
   {% for post in posts %}
-  <table>
-    <tr>
-      <td><img src="{{ post.author.avatar(50) }}" alt=""></td>
-      <td><i> {{ post.author.nickname }} says:</i><br>{{ post.body }}</td>
-    </tr>
+    {% include 'post.html' %}
   {% endfor %}
 {% endblock %}
